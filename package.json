@@ -9,6 +9,13 @@
     "component",
     "generator"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anttikon/react-component-factory"
+  },
+  "bugs": {
+    "url": "https://github.com/anttikon/react-component-factory/issues"
+  },
   "babel": {
     "ignore": [
       "src/config/**/content/**"
