@@ -1,0 +1,49 @@
+{
+  "name": "react-component-factory",
+  "version": "0.4.11",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "author": "Antti Kontoniemi",
+  "keywords": [
+    "react",
+    "component",
+    "generator"
+  ],
+  "babel": {
+    "ignore": [
+      "src/config/**/content/**"
+    ],
+    "presets": [
+      "babel-preset-env"
+    ],
+    "plugins": [
+      "transform-runtime",
+      "transform-object-rest-spread"
+    ]
+  },
+  "scripts": {
+    "build": "babel --copy-files ./src -d lib",
+    "dev": "babel-node ./src/index.js",
+    "prepublish": "yarn build"
+  },
+  "bin": {
+    "react-component-factory": "./lib/index.js"
+  },
+  "files": [
+    "lib/"
+  ],
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "chalk": "^2.3.0",
+    "fs-extra": "^4.0.2",
+    "inquirer": "^3.3.0",
+    "jest": "^21.2.1",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
