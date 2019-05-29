@@ -1,6 +1,6 @@
 {
   "name": "react-component-factory",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "main": "src/app.js",
   "license": "MIT",
   "author": "Antti Kontoniemi",
