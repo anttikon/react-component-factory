@@ -1,7 +1,7 @@
 {
   "name": "react-component-factory",
   "version": "0.5.0",
-  "main": "lib/app.js",
+  "main": "src/app.js",
   "license": "MIT",
   "author": "Antti Kontoniemi",
   "keywords": [
